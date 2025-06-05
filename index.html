@@ -9,16 +9,27 @@
 <body>
   <div class="container">
     <h1>Ujian Kewaspadaan Persekitaran Penunggang Motosikal</h1>
+
+    <!-- Paparan Video -->
     <video id="video" width="640" height="360" controls>
       <source src="video.mp4" type="video/mp4" />
       Video tidak dapat dimainkan.
     </video>
+
+    <!-- Paparan Soalan -->
     <div id="quiz" class="hidden">
       <div id="question"></div>
       <ul id="choices"></ul>
+      <div id="explanation" class="hidden"></div>
       <button id="nextBtn">Soalan Seterusnya</button>
     </div>
-    <div id="result" class="hidden"></div>
+
+    <!-- Ringkasan Keputusan -->
+    <div id="result" class="hidden">
+      <h2>Ringkasan Keputusan</h2>
+      <p id="scoreSummary"></p>
+      <p id="finalMessage"></p>
+    </div>
   </div>
 
   <script src="script.js"></script>
