@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+video {
+  margin-bottom: 20px;
+}
+
+#quiz {
+  text-align: left;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  background: #e9ecef;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+li.correct {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+li.incorrect {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.hidden {
+  display: none;
+}
