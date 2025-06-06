@@ -4,6 +4,7 @@ body {
   color: #333;
   padding: 20px;
   text-align: center;
+  margin: 0;
 }
 
 .container {
@@ -22,6 +23,7 @@ video {
   border-radius: 6px;
 }
 
+/* Quiz Section */
 #quiz {
   margin-top: 20px;
 }
@@ -75,21 +77,29 @@ video {
   display: none;
 }
 
-.responsive-text {
-  font-size: 24px;
-  line-height: 1.5;
-  font-family: Arial, sans-serif;
-}
-
-@media only screen and (max-width: 600px) {
-  .responsive-text {
-    font-size: 16px;
-  }
-}
-
-
 #explanation {
   margin-top: 10px;
   font-style: italic;
   color: #555;
+}
+
+/* Responsive Typography */
+h1, h2, h3, #question {
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+@media only screen and (max-width: 600px) {
+  h1, h2, h3, #question {
+    font-size: 16px;
+  }
+
+  #nextBtn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  #choices li {
+    font-size: 14px;
+  }
 }
