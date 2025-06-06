@@ -75,6 +75,19 @@ video {
   display: none;
 }
 
+.responsive-text {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .responsive-text {
+    font-size: 16px;
+  }
+}
+
+
 #explanation {
   margin-top: 10px;
   font-style: italic;
